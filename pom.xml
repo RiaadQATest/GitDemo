@@ -18,10 +18,20 @@
     </plugins>
   </build>
   <dependencies>
+  <!-- Real Selenium Java -->
   	<dependency>
-  		<groupId>YaadieTesting</groupId>
-  		<artifactId>Selenium-java</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>4.23.0</version>
   	</dependency>
+  	
+  	<!-- Real TestNG -->
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>7.10.2</version>
+  		<scope>test</scope>
+  	</dependency>
+  	
   </dependencies>
 </project>

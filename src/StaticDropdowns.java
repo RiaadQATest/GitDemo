@@ -25,7 +25,7 @@ public class StaticDropdowns {
 		Select dropdown = new Select(staticDropdown);
 		dropdown.selectByIndex(3);
 		System.out.println(dropdown.getFirstSelectedOption().getText());
-		dropdown.selectByContainsVisibleText("AED");
+		dropdown.selectByVisibleText("AED");
 		System.out.println(dropdown.getFirstSelectedOption().getText());
 		dropdown.selectByValue("INR");
 		System.out.println(dropdown.getFirstSelectedOption().getText());
